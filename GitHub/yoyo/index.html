@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>toon bro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Title -->
+    <h1 id="title">toon bro</h1>
+
+    <!-- Box -->
+    <div class="mybox">
+        <p id="box-description">Welcome to Toon Bro</p>
+    </div>
+
+    <!-- Links -->
+    <a class="my-button" href="https://anime-indy.com/douluo-dalu-soul-land-thai/" target="_blank" id="anime-link">เว็บดูอนิเมะ</a>
+    <br><br>
+    <a class="my-button" href="https://en.gameslol.net/bleach-vs-naruto-3-3-1397.html" target="_blank" id="game-link">เว็บเข้าเกม</a>
+    <br><br>
+
+    <!-- Form -->
+    <form>
+        <input type="text" placeholder="ชื่อ" id="name">
+        <input type="password" placeholder="รหัส" id="password">
+        <input type="email" placeholder="อีเมล" id="email">
+        <br>
+        <label>
+            <input type="checkbox" name="agree" checked id="agree-checkbox"/>
+            <span id="terms-text">ยอมรับเงื่อนไข</span>
+        </label>
+    </form>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Toon Bro. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Language Selector -->
+    <select id="language-selector" onchange="changeLanguage(this)">
+        <option value="en">English</option>
+        <option value="th">ไทย</option>
+    </select>
+
+    <script>
+        // Function to change language
+        function changeLanguage(select) {
+            const language = select.value;
+
+            if (language === 'th') {
+              
+                document.getElementById('box-description').textContent = 'ยินดีต้อนรับสู่ Toon Bro';
+                document.getElementById('anime-link').textContent = 'เว็บดูอนิเมะ';
+                document.getElementById('game-link').textContent = 'เว็บเข้าเกม';
+                document.getElementById('name').setAttribute('placeholder', 'ชื่อ');
+                document.getElementById('password').setAttribute('placeholder', 'รหัส');
+                document.getElementById('email').setAttribute('placeholder', 'อีเมล');
+                document.getElementById('terms-text').textContent = 'ยอมรับเงื่อนไข';
+            } else {
+              
+                document.getElementById('box-description').textContent = 'Welcome to Toon Bro';
+                document.getElementById('anime-link').textContent = 'Watch Anime';
+                document.getElementById('game-link').textContent = 'Play Game';
+                document.getElementById('name').setAttribute('placeholder', 'Name');
+                document.getElementById('password').setAttribute('placeholder', 'Password');
+                document.getElementById('email').setAttribute('placeholder', 'Email');
+                document.getElementById('terms-text').textContent = 'Agree to Terms';
+            }
+        }
+    </script>
+</body>
+</html>
