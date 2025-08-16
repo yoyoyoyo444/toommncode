@@ -1,0 +1,1165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--เปลื่อยชื่อหน้าเว้บ ไททอล-->
+    <title>my wed pagt</title> 
+</head>
+<!--head คือหัวข้อ-->
+<!--body คือเก็บเนื้อ-->
+
+<body> 
+    <!--ส่วนหัวรีคำบรรยายแสดงบนหน้าเว็บ-->
+     <h1>html headings</h1>
+
+
+<!--ใช้กับหนดย่อหน้า ใช้กับข้อความ-->
+<p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum accusantium iusto voluptatem minima perferendis voluptatibus sunt magnam quisquam error. Est unde quis, laborum sed earum nihil suscipit voluptate esse iure!
+</p>
+
+
+
+<!--<a> คือ links ไปหน้าอื่นได้โดยใช้คำสั่งตามนี้ -->
+
+<a href="https://googgle.com"target="-blank">go to goodgle</a>
+<br>
+<a href="about.html">go to about page</a>
+<br>
+<a href="https://www.123-hdd.com/soul-land-thai-ep-263"> go to ถังซาน</a>
+<br>
+<!--เพิ่มรูปสามารถเอามาจากใหนก้ได้เป้นลิ้งจำไม่ได้ค่อยหาข้อมูล-->
+<img width="300" height="200" src="https://www.pixelstalk.net/wp-content/uploads/2016/07/Download-Free-Pictures-3840x2160.jpg" alt="not backgrounds">
+<!--เทเบิ้ล การสร้างตาราง-->
+<table>
+    <!--ต้องมี-->
+    <tr>
+        <!--ต้องมี-->
+        <th>id</th>
+        <th>name</th>
+        <th>age</th>
+    </tr>
+    <tr>
+        <!--แทกตัวที่กำหนด-->
+        <td>1</td>
+        <td>john do</td>
+        <td>25</td>
+    </tr>
+     <tr>
+        <td>2</td>
+        <td>jane</td>
+        <td>30</td>
+    </tr>
+     <tr>
+        <td>3</td>
+        <td>johnjoe do</td>
+        <td>20</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>yo do</td>
+        <td>23</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>joe do</td>
+        <td>28</td>
+    </tr>
+<tr>
+        <td>6</td>
+        <td>john do</td>
+        <td>24</td>
+    </tr>
+<tr>
+        <td>7</td>
+        <td>eminame do</td>
+        <td>23</td>
+    </tr>
+<tr>
+        <td>8</td>
+        <td>ruok ra</td>
+        <td>29</td>
+    </tr>
+<tr>
+        <td>9</td>
+        <td>johnjoe do</td>
+        <td>22</td>
+    </tr>
+</table>
+<!--UL OL เรียงเลขกับเรียงจุดดำ-->
+<ol>
+    <li>coffee</li>
+    <li>tea</li>
+    <li>milk</li>
+</ol>
+
+<!-- กำหนดลักษณะ ให้กับข้อความ  <b> <sttong> <i> <em> -->
+<!-- forms การรวบรวมข้อมูล ละการป้อนข้อมูล และของผุ้ใช้ ข้อมูลจะถุกส่งไปยังเชิฟเวอร์คือ input -->
+ <form action="">
+    <!-- เส้นขอบ -->
+    <fieldset>
+        <legend>kolasun</legend>
+<!-- select= รายการค่าหลายตัวว -->
+<select name="cars" id="cars">
+    <option value="yelllo"selectted>yelllo</option>
+    <option value="rsd">red</option>   
+    <!-- selectted เลือกตัวแรก -->
+    <option value="back">back</option>
+</select>
+<br>
+<textarea name="" id=""></textarea>
+<!-- กล่องขำคว้ามเพิ่มขนาดได้-->
+<button type="submit">submit</button>
+
+
+
+
+
+
+    <label for="ชื่อแรก">ชื่อแรก</label>
+    <!-- placehoder คือพิมข้อความในกล่องข้อความ -->
+    <input type="text" name="firsname" placeholder="exter your frisname"> <br>
+    <!-- text พิมข้อความ -->
+    <label for="ชื่อท้าย">ชื่อท้าย</label>
+    <input type="text" name="lastname"  placeholder="exter your lastname"> <br>
+    <input type="button" value="sudmit">
+    <input type="checkbox"><br>
+
+</fieldset>
+<input list="browsers"name="browsers">
+<!-- <input list="" name="" id="">คือที่เลือกกล่องข้อความแบบมีให้กดenter -->
+<datalist id="browsers">
+    <option value="yello">
+        <option value="back">back
+            <option value="red">red
+    </option>
+</datalist>
+<!-- block elements เริ่มบรรทัดใหมเสมอ-->
+<div>
+    <p>
+     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis, molestias?
+    </p>
+    <p>
+     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis, molestias?
+    </p>
+</div>
+<hr>
+<!-- lnline elements ไม่เริ่มบรรทัดใหม่ จะมีความกว้างตามเนื้อหาภายใน -->
+<a href="#">home</a>
+<a href="#">about</a>
+<a href="#">index</a>
+<a href="#">welcome</a>
+<span>text1</span>
+<span>text2</span>
+<span>text3</span>
+<!-- div ใช้บ่อย =ใช้เป้นกล่อง อยุ่ในblock elements ใช้วางโครงสร้างกับหน้าเว็บ -->
+ <!-- elements แม่ -->
+ <div>
+    <!-- elemets ลูก -->
+    <h1>hillo html</h1>
+    <p>learn html and sstuff</p>
+ <div>
+    <p >jgjlsf</p>
+ </div>
+</div> 
+
+
+
+.
+<style>
+    .container {
+    width: 96px:0 auto;
+    }
+</style>
+<div class=""></div>
+<!--clall  ระบุชื่อคลาสของhtmlได้ .ใช้ซ้ำได้ -->
+<div class="container">
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, pariatur. Velit, maxime eos ipsam ex iusto a reprehenderit quasi! Ipsa exercitationem laudantium excepturi eveniet in nostrum corrupti pariatur, doloremque perferendis?
+
+    </p>แตกต่างจากclass
+    <!--  -->
+    <head>
+<style>
+#mybox {
+    width:  100px;
+    height:100px;
+    background-color:rgb(185, 19, 19);
+}
+
+</style>
+</head>
+</div>
+
+    <body>
+        <!-- ระบุไอดีเฉพราะแทก html  มีแค่ตัวเดียยว ใช้ซ้ำไม่ได้ -->
+<div id="mybox">
+
+</div>
+<!-- ใช้อ้างอิง ที่พิมไอดีเข้าไป อันนี้ภาษาจาวาสคิบ -->
+<script>
+    let mybox =document.getElementById("mybox")
+    mybox.addEventListener("click".function name() {
+        alert(" hello world")
+        
+    })
+</script>
+<!-- smmantic elemets ใช้บ่อย ที่มีความหมายในตัว  -->
+
+<header>
+  <h1>นั้นสิ</h1>
+  <nav>
+    <a href="#">หน้าแรก</a>
+    <a href="#">เกี่ยวกับ</a>
+    <a href="#">ติดต่อ</a>
+  </nav>
+</header>
+<main>
+  <article>
+    <h2>หัวข้อบทความ</h2>
+    <p>เนื้อหาของบทความ...</p>
+  </article>
+  <aside>
+    <p>โฆษณา</p>
+  </aside>
+</main>
+<footer>
+  <p>ลิขสิทธิ์ &copy; 2025</p>
+</footer>
+</body>
+
+
+
+<h1>
+    ไม่มีความพยาม ก้จบ
+    จงพยายามเพื่อ
+    ประสบณ์ความสำเร็จ eieiei
+</h1>
+
+
+
+
+
+
+
+
+    
+ </form>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+class
+   </style>
+sud-heading{
+    background-color:red
+}
+</head>
+<body>
+    <!-- inline style  -->
+<h1 style="color: red;">hello</h1>
+<h3 class="sud-heading">this is sud heading</h3>
+    <p>learn css</p>
+</body>
+</html>
+
+
+
+
+
+
+
+
+cssp {
+/* แทกต้องการเข้าถึง */
+    color: crimson;
+    /* กำหนดค่า */
+    text-align: center;
+    /* กำหนดค่า  */
+}
+/* box s */
+.box1 {
+width: 100px;
+height: 100px;
+background-color: blue;
+margin: 10px;
+}
+/* id */
+#mybox {
+    width: 300px;
+    height: 100px;
+    background-color: brown;
+    margin: 10px;
+}
+
+
+
+
+
+
+background 
+    /* background-color: brown;
+    background-image: url("https://gratisography.com/wp-content/uploads/2025/01/gratisography-dog-vacation-800x525.jpg");
+    background-repeat:no-repeat ;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; */
+
+        ดัวอักษร
+        
+        
+        
+        .dotted {
+    border-style: dotted;
+    border-width: 5px;
+}
+.dashed {
+    border-style: dashed;
+}
+.solid {
+    border-style: solid;
+}
+
+
+
+.duble {
+    border-style: duble;
+}
+.gtvoove {
+    border-style: gtvoove;
+}
+.grvoove {
+    border-style: grvoove;
+}
+.inset {
+    border-style: inset;
+}
+.outset {
+    border-style: outset;
+}
+.none {
+    border-style: none;
+}
+.hidde {
+    border-style: hidde;
+}
+.mix {
+    border-style: dotted dashed solid double;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+css คำสั่งเปลื่อนหน้ายูไอ
+background-color: #3498db;
+color: white;
+border: none;
+border-radius: 10px;
+cursor: pointer;
+   text-decoration: none;
+   display: inline-block;
+   
+   transition: background-color 0.3s,transfom 0.2s;
+   position: relative;
+
+   
+}
+.my-button:hover {
+    background-color: #2ecc71;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+กรคลิกเข้าเว้บ   
+  <a1 class="my-button"onclick="window.location.href='https://animeshiro.com/watch/513LNCuwNB/'"target="-blank">เว็บดูถังซาน</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
